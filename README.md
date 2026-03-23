@@ -65,6 +65,14 @@ If you don't have a Mac with Apple Silicon, you can run an adapted version of th
 
 First, clone the repository, create a fresh Python environment, and install the packages needed for the MLX path plus dataset download:
 
+**Using uv (recommended):**
+```bash
+git clone https://github.com/openai/parameter-golf.git
+cd parameter-golf
+uv sync --extra mlx
+```
+
+**Using venv:**
 ```bash
 git clone https://github.com/openai/parameter-golf.git
 cd parameter-golf

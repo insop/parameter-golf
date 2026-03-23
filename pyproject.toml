@@ -1,0 +1,26 @@
+[project]
+name = "parameter-golf"
+version = "0.1.0"
+description = "OpenAI Model Craft Challenge: Parameter Golf"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "tqdm",
+    "torch",
+    "huggingface-hub",
+    "kernels",
+    "setuptools",
+    "typing-extensions==4.15.0",
+    "datasets",
+    "tiktoken",
+    "sentencepiece",
+]
+
+[project.optional-dependencies]
+mlx = [
+    "mlx",
+]
+
+[tool.uv]
+dev-dependencies = []
